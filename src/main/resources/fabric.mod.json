@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "id": "betterhotbar",
+  "id": "viewmodel",
   "version": "${version}",
-  "name": "BetterHotbar",
-  "description": "Makes your hotbar have a smooth animation and clean look",
+  "name": "ViewModel",
+  "description": "moves your hands around",
   "authors": [
     "DivineEssentia"
   ],
@@ -12,11 +12,11 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "me.divine.betterhotbar.Betterhotbar"
+      "me.divine.viewmodel.ViewModel"
     ]
   },
   "mixins": [
-    "betterhotbar.mixins.json"
+    "viewmodel.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.13.3",
