@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "viewmodel",
+  "version": "${version}",
+  "name": "ViewModel",
+  "description": "moves your hands around",
+  "authors": [
+    "DivineEssentia"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.divine.viewmodel.ViewModel"
+    ],
+    "modmenu": [
+      "me.divine.viewmodel.viewmodelmm"
+    ]
+
+  },
+  "mixins": [
+    "viewmodel.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "minecraft": "1.18.1"
+  }
+}
